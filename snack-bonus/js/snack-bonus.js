@@ -30,8 +30,7 @@ function contaElementi(input) {
 
 function rimuoviDallaTesta(array1, element) {
 
-    const arrayNew = [];
-    arrayNew.push(element);
+    const arrayNew = [element];
 
     for (let i = 0; i < contaElementi(array1); i++) {
 
