@@ -26,7 +26,7 @@ function contaElementi(input) {
     return i;
 }
 
-// funzione che rimuove il primo elemento dell'array
+// funzione che aggiunge l'elemento element in testa e a seguire l'array1
 
 function rimuoviDallaTesta(array1, element) {
 
@@ -40,5 +40,5 @@ function rimuoviDallaTesta(array1, element) {
     return arrayNew;
 }
 
-// stampo in console l'array risultante
+// stampo in console l'array risultante con l'elemento elementE in testa
 console.log('Final array:', rimuoviDallaTesta(arrayA, elementE));
